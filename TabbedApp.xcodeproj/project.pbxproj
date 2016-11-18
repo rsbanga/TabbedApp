@@ -15,6 +15,8 @@
 		355B82B41DC7AC0600F0AA77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355B82B21DC7AC0600F0AA77 /* LaunchScreen.storyboard */; };
 		355B82BF1DC7AC0600F0AA77 /* TabbedAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B82BE1DC7AC0600F0AA77 /* TabbedAppTests.swift */; };
 		355B82CA1DC7AC0600F0AA77 /* TabbedAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B82C91DC7AC0600F0AA77 /* TabbedAppUITests.swift */; };
+		355B82DD1DC7DBFE00F0AA77 /* IDCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B82DC1DC7DBFE00F0AA77 /* IDCardViewController.swift */; };
+		35EEF9851DDFB8CD009D1501 /* Bike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF9841DDFB8CD009D1501 /* Bike.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		355B82C51DC7AC0600F0AA77 /* TabbedAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbedAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		355B82C91DC7AC0600F0AA77 /* TabbedAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedAppUITests.swift; sourceTree = "<group>"; };
 		355B82CB1DC7AC0600F0AA77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355B82DC1DC7DBFE00F0AA77 /* IDCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDCardViewController.swift; sourceTree = "<group>"; };
+		35EEF9841DDFB8CD009D1501 /* Bike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bike.jpg; path = "../../../Pictures/Pictures from web/Bike.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		355B829B1DC7AC0600F0AA77 = {
 			isa = PBXGroup;
 			children = (
+				355B82D91DC7D70B00F0AA77 /* Images */,
 				355B82A61DC7AC0600F0AA77 /* TabbedApp */,
 				355B82BD1DC7AC0600F0AA77 /* TabbedAppTests */,
 				355B82C81DC7AC0600F0AA77 /* TabbedAppUITests */,
@@ -106,6 +111,7 @@
 				355B82B01DC7AC0600F0AA77 /* Assets.xcassets */,
 				355B82B21DC7AC0600F0AA77 /* LaunchScreen.storyboard */,
 				355B82B51DC7AC0600F0AA77 /* Info.plist */,
+				355B82DC1DC7DBFE00F0AA77 /* IDCardViewController.swift */,
 			);
 			path = TabbedApp;
 			sourceTree = "<group>";
@@ -126,6 +132,14 @@
 				355B82CB1DC7AC0600F0AA77 /* Info.plist */,
 			);
 			path = TabbedAppUITests;
+			sourceTree = "<group>";
+		};
+		355B82D91DC7D70B00F0AA77 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				35EEF9841DDFB8CD009D1501 /* Bike.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				355B82B41DC7AC0600F0AA77 /* LaunchScreen.storyboard in Resources */,
+				35EEF9851DDFB8CD009D1501 /* Bike.jpg in Resources */,
 				355B82B11DC7AC0600F0AA77 /* Assets.xcassets in Resources */,
 				355B82AF1DC7AC0600F0AA77 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +280,7 @@
 				355B82AC1DC7AC0600F0AA77 /* SecondViewController.swift in Sources */,
 				355B82A81DC7AC0600F0AA77 /* AppDelegate.swift in Sources */,
 				355B82AA1DC7AC0600F0AA77 /* FirstViewController.swift in Sources */,
+				355B82DD1DC7DBFE00F0AA77 /* IDCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +523,7 @@
 				355B82D01DC7AC0600F0AA77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		355B82D11DC7AC0600F0AA77 /* Build configuration list for PBXNativeTarget "TabbedAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				355B82D31DC7AC0600F0AA77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		355B82D41DC7AC0600F0AA77 /* Build configuration list for PBXNativeTarget "TabbedAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				355B82D61DC7AC0600F0AA77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

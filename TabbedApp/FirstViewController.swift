@@ -19,7 +19,19 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBOutlet weak var UserId: UITextField!
+    @IBOutlet weak var UserPassword: UITextField!
 
+    @IBAction func ViewID(_ sender: Any) {
 
+        if UserId.text != "" && UserPassword.text != "" {
+            self.performSegue(withIdentifier: "IDCardViewSegue", sender: self)
+        }
+        else
+        {
+            Error.text = "Enter UserId and Password"
+        }
+    }
+    @IBOutlet weak var Error: UILabel!
 }
 
