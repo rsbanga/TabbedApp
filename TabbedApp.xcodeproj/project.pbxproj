@@ -16,7 +16,7 @@
 		355B82BF1DC7AC0600F0AA77 /* TabbedAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B82BE1DC7AC0600F0AA77 /* TabbedAppTests.swift */; };
 		355B82CA1DC7AC0600F0AA77 /* TabbedAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B82C91DC7AC0600F0AA77 /* TabbedAppUITests.swift */; };
 		355B82DD1DC7DBFE00F0AA77 /* IDCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B82DC1DC7DBFE00F0AA77 /* IDCardViewController.swift */; };
-		35EEF9851DDFB8CD009D1501 /* Bike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF9841DDFB8CD009D1501 /* Bike.jpg */; };
+		35EEF9871DDFBDEC009D1501 /* Bike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35EEF9861DDFBDEC009D1501 /* Bike.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		355B82C91DC7AC0600F0AA77 /* TabbedAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedAppUITests.swift; sourceTree = "<group>"; };
 		355B82CB1DC7AC0600F0AA77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		355B82DC1DC7DBFE00F0AA77 /* IDCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDCardViewController.swift; sourceTree = "<group>"; };
-		35EEF9841DDFB8CD009D1501 /* Bike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bike.jpg; path = "../../../Pictures/Pictures from web/Bike.jpg"; sourceTree = "<group>"; };
+		35EEF9861DDFBDEC009D1501 /* Bike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bike.jpg; path = "../../Pictures/Pictures from web/Bike.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +137,7 @@
 		355B82D91DC7D70B00F0AA77 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				35EEF9841DDFB8CD009D1501 /* Bike.jpg */,
+				35EEF9861DDFBDEC009D1501 /* Bike.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -250,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				355B82B41DC7AC0600F0AA77 /* LaunchScreen.storyboard in Resources */,
-				35EEF9851DDFB8CD009D1501 /* Bike.jpg in Resources */,
+				35EEF9871DDFBDEC009D1501 /* Bike.jpg in Resources */,
 				355B82B11DC7AC0600F0AA77 /* Assets.xcassets in Resources */,
 				355B82AF1DC7AC0600F0AA77 /* Main.storyboard in Resources */,
 			);
